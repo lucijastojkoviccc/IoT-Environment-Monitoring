@@ -1,0 +1,8 @@
+Model: Edge Impulse audio classification model
+Classes: Start, Stop, Noise, Unknown
+Processing block: MFCC
+Learning block: Classification
+Input frequency: 16000 Hz
+Window size: 1000 ms
+Window increase: 500 ms
+Accuracy: 87%
