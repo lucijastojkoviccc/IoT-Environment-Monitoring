@@ -186,19 +186,6 @@ http://<raspberry-pi-ip>:3000
 
 ---
 
-# Example ML Output
-
-```json
-{
-  "brightness": 92.4,
-  "contrast": 163.0,
-  "prediction": "normal",
-  "confidence": 0.93,
-  "action": "ENVIRONMENT_STABLE"
-}
-```
-
----
 
 # Challenges During Development
 
@@ -208,17 +195,6 @@ http://<raspberry-pi-ip>:3000
 * MQTT topic synchronization
 * ML model calibration
 * Real-time event visualization
-
----
-
-# Future Improvements
-
-* CNN-based image processing
-* Full image inference instead of extracted features
-* Real actuator integration
-* Mobile application support
-* Cloud deployment
-* Edge AI optimization
 
 ---
 
