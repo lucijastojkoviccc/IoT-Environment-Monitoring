@@ -118,44 +118,7 @@ The ML model is implemented using TensorFlow/Keras and converted to TensorFlow L
 
 ---
 
-# Project Structure
 
-```text
-ubicomp-projekat2/
-│
-├── docker-compose.yml
-│
-├── serial_reader/
-│   ├── Dockerfile
-│   ├── requirements.txt
-│   └── serial_to_mqtt.py
-│
-├── mqtt_to_influx/
-│   ├── Dockerfile
-│   ├── requirements.txt
-│   └── mqtt_to_influx.py
-│
-├── ml_service/
-│   ├── Dockerfile
-│   ├── requirements.txt
-│   ├── ml_inference.py
-│   ├── train_model.py
-│   └── light_model.tflite
-│
-├── arduino/
-│   └── camera_monitoring.ino
-│
-├── screenshots/
-│   ├── hardware_setup.jpg
-│   ├── grafana_dashboard.png
-│   ├── serial_reader_logs.png
-│   ├── mqtt_to_influx_logs.png
-│   └── ml_service_logs.png
-│
-└── docs/
-    ├── presentation.pptx
-    └── report.pdf
-```
 
 ---
 
